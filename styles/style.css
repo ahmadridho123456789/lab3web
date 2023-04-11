@@ -1,0 +1,152 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+}
+span {
+  font-size: 14px;
+  opacity: 0.5;
+  font-weight: lighter;
+}
+.container {
+  margin: auto;
+  width: 1000px;
+}
+
+.container h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 16px;
+  font-weight: 600;
+  font-style: uppercase;
+}
+
+.container .main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2px;
+  gap: 10px;
+}
+button {
+  background-color: #00a2ff; /* Green */
+  border: none;
+  color: white;
+  padding: 12px 12px;
+  text-align: center;
+  margin-bottom: 24px;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 6px;
+  margin-top: 24px;
+  font-size: 16px;
+}
+button a {
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  color: white;
+}
+.container .main table {
+  border-collapse: collapse;
+
+  text-align: center;
+}
+
+.container .main table img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.container .main table th,
+td {
+  border: 2px solid rgb(61, 61, 61);
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.container .main table tr td a {
+  text-decoration: underline;
+}
+
+.container .main table tr td a:hover,
+.tambah:hover {
+  color: rgba(92, 92, 92, 0.6);
+  transition: 0.2s all;
+}
+/* tambah barang */
+
+.container .main form {
+  width: 400px;
+  padding: 12px;
+  margin: auto;
+}
+
+.container .main form .input label {
+  display: block;
+  margin: 10px 0 5px 0;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.container .main form .input input[type="text"],
+.container .main form .input select {
+  width: 100%;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.container .main form .input .label {
+  padding: 3px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: azure;
+  box-shadow: -2px -2px 3px inset gray, 2px 2px 3px inset whitesmoke;
+}
+
+.container .main form .submit input[type="submit"] {
+  display: block;
+  margin: 20px auto 0 auto;
+  width: 100%;
+  border-radius: 5px;
+  padding: 5px 0;
+  box-shadow: -2px -2px 3px inset gray, 2px 2px 3px inset whitesmoke;
+  border: 1px solid black;
+}
+
+.container .main form .submit input[type="submit"]:hover {
+  box-shadow: 0px 0px 0px inset gray, 0px 0px 0px inset gray;
+  transform: translate(0px, 3px);
+  background-color: #00a2ff;
+  cursor: pointer;
+  transition: 0.4ms all;
+}
+
+.back {
+  width: 10%;
+  border: 1px solid black;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: -2px -2px 2px inset gray;
+}
+
+.back a i {
+  padding: 5px;
+  display: block;
+  color: black;
+  font-size: 18px;
+}
+
+.back:hover {
+  transform: translate(0, 5px);
+  box-shadow: 0px 0px 0px gray;
+}
